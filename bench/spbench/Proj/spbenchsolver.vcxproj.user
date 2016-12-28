@@ -5,7 +5,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommandArguments>-d E:/data/matrixes/benchmark -o outputfile.xml</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-d ../../../BenchMarkDependencies/data -o ../../../BenchMarkDependencies/data/outputfile.xml</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
